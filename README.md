@@ -7,8 +7,8 @@ python3 run_exp.py --task TART --mode NCF --setting naive --lr 1e-2 --reg 1e-4 <
 python3 run_exp.py --task TART --mode NCF --setting naive --lr 1e-2 --reg 1e-4 <br />
 python3 run_exp.py --task TART --mode NCF --setting StaticIps --lr 1e-2 --reg 1.0 <br />
 python3 run_exp.py --task TART --mode NCF --setting StaticIps --lr 1e-3 --reg 1e-1 <br />
-python3 run_exp.py --task TART --mode NCF --setting DANCER --lr 1e-4 --reg 1e-3 <br />
-python3 run_exp.py --task TART --mode NCF --setting DANCER --lr 1e-4 --reg 1e-3 <br />
+python3 run_exp.py --task TART --mode TNCF --setting DANCER --lr 1e-4 --reg 1e-3 <br />
+python3 run_exp.py --task TART --mode TNCF_em --setting DANCER --lr 1e-4 --reg 1e-3 <br />
 
 
 # Original RQ3 Commands
